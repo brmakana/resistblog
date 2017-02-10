@@ -39,7 +39,7 @@ spec:
         app: wordpress
     spec:
       containers:
-      - image: makanab/docker-wordpress-nginx
+      - image: makanab/docker-wordpress-nginx:1.6
         name: wordpress
         env:
         - name: MYSQL_PASSWORD
